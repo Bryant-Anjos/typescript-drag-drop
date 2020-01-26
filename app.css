@@ -7,7 +7,8 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
+  max-width: 750px;
 }
 
 label,
@@ -26,7 +27,6 @@ textarea {
   font: inherit;
   padding: 0.2rem 0.4rem;
   width: 100%;
-  max-width: 30rem;
   border: 1px solid #ccc;
 }
 
@@ -121,6 +121,8 @@ button:active {
 }
 
 #user-input {
+  display: flex;
+  flex-direction: column;
   margin: 1rem;
   padding: 1rem;
   border: 1px solid #ff0062;
